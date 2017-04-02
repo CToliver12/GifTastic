@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang ="en">
+	<head>
+	<title> Actions Giphy Fun</title>
+		<!--BOOTSTRAP/Latest compiled and minified CSS-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<!--Linking CSS -->
+		<link rel = "stylesheet" type="text/css" href="assets/css/style.css">
+
+		</head>
+		<body> 
+			<!-- Main jumbotron/Header --> 
+			<div class= "jumbotron"> 
+			<div class= "container">
+					<h1> Actions Giphy Fun </h1>
+				</div>
+			</div>
+			<!--Buttons -->
+			<div id="gifButtonsView" class="container">
+			</div>
+			<!-- Main Container -->
+			<div class="container">
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9"> 
+					<!-- Gifs -->
+					<div id="gifsView" clas="gif"></div>
+				</div>
+				<!--Action Submission Form -->
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					<form id="gif form" role="form">
+					<h2><legend>Action Submission</legend></h2>
+					<div class="form-group">
+						<label for="action-input"> Add your action below</label>
+						<input type="text" id="action-input">
+					</div>
+					<!--Buttons triggers new action to be added -->
+					<input id="addGif" type="submit" value="Add your action" class="btn btn-primary">
+					
+				</form>
+			</div>
+		</div>
+		
+	
+		<!-- Linking to jQuery -->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+		<!-- Linking JavaScript -->
+		<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+		<!-- jQuery (neccessary for Bootstrap's Javascript plugins) -->
+		<script src ="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	</body>
+</html>
+
+
+
+
+
